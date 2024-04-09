@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    background-color: #000000;
+  }
+
+  .navbar {
+    background-color: #000;
+    position: fixed;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+  }
+
+  .navbar ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    padding-right: 20px;
+  }
+
+  .navbar ul li a {
+    color: aliceblue;
+  }
+
+  .logo {
+    height: 5vh;
+    width: 10vw;
+    /* background-color: red; */
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .logo h1 {
+    font-size: 10rem;
+    color: aliceblue;
+    transition: font-size 0.5s all ease;
+  }
