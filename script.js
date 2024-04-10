@@ -32,4 +32,38 @@ window.addEventListener('scroll', function() {
     });
   }
 });
-  
+
+
+
+
+var tl = gsap.timeline({
+  scrollTrigger:{
+      trigger:"#page3",
+      start: "50% 50%",
+      end:"250% 50%",
+      scrub: true,
+      pin: true,
+      marker:true,
+      
+  }
+})
+
+tl.to(".svg",{
+  maskSize: "300%",
+  duration: 1
+},'a')
+
+tl.to(".imges",{
+  backgroundSize: "100%",
+  duration: 1
+},'a')
+
+tl.to(".svg2",{
+  maskSize: "300%",
+  duration: 1
+},'a1')
+
+tl.to(".imges2",{
+  backgroundSize: "100%",
+  duration: 1
+},'a1')

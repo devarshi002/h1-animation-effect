@@ -44,3 +44,64 @@ body {
     color: aliceblue;
     transition: font-size 0.5s all ease;
   }
+
+  .img1 {
+    position: absolute;
+    top: 20%;
+    right: 5%;
+    height: 500px;
+    width: 200px; /* Adjust the height as needed */
+    width: auto;
+    object-fit: cover;
+  }
+
+
+ .img2{
+    position: absolute;
+    left: 10%;
+    bottom: -19%;
+    height: 300px;
+    width: 300px;
+ }
+
+ .img3{
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    top: 130%;
+    left: 40%;
+ }
+
+
+ .svg, .svg2{
+    width: 100%;
+    height: 100vh;
+    /* background-color: aqua; */
+    mask-image: url(download.svg);
+    mask-size: 0%;
+    mask-repeat: no-repeat;
+    mask-position: center;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+}
+
+.imges{
+    width: 100%;
+    height: 100%;
+    background-image: url(fire.jpg);
+    background-size: 130%;
+    background-position: center;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+    position: absolute;
+
+}
+
+.imges2{
+    width: 100%;
+    height: 100%;
+    background-image: url(sq.jpg);
+    background-size: 130%;
+    background-position: center;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+    position: absolute;
+
+}
